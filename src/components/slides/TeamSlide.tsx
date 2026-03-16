@@ -104,7 +104,7 @@ export const TeamSlide = memo(({ slide }: TeamSlideProps) => {
             style={fadeUp("0.5s")}
           >
             <p className="text-sm md:text-base text-primary/80 font-medium leading-relaxed">
-              <span className="font-bold text-secondary">Why us?</span> As CS senior students, we possess the exact end-to-end technical stack — from complex AI algorithms to mobile UIs — required to build the Etb3haly ecosystem.
+              <span className="font-bold text-secondary">Why us?</span> As CS junior students, we possess the exact end-to-end technical stack — from complex AI algorithms to mobile UIs — required to build the Etb3haly ecosystem.
             </p>
           </div>
 
