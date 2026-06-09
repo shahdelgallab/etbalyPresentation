@@ -13,11 +13,11 @@ export const QnASlide = memo(({ slide }: QnASlideProps) => {
   return (
     <div className="fixed inset-0 font-display overflow-hidden">
 
-      {/* Decorative bottom-left spool */}
+      {/* Decorative top-left */}
       <img
-        src="/figs/Pasted image (5).png"
+        src="/figs/Pasted image (10).png"
         alt=""
-        className="absolute top-24 left-24 w-16 md:w-24 object-contain pointer-events-none opacity-80 z-0 animate-[fadeIn_0.6s_ease-out_0.6s_both]"
+        className="absolute top-10 left-10 w-24 md:w-36 object-contain pointer-events-none opacity-50 z-0 animate-[fadeIn_0.6s_ease-out_0.6s_both]"
         loading="lazy"
       />
 
@@ -25,7 +25,7 @@ export const QnASlide = memo(({ slide }: QnASlideProps) => {
       <img
         src="/figs/Pasted image (6).png"
         alt=""
-        className="absolute bottom-14 right-2 w-32 md:w-64 object-contain pointer-events-none opacity-80 z-0 animate-[fadeIn_0.6s_ease-out_0.8s_both]"
+        className="absolute bottom-10 right-4 w-36 md:w-64 object-contain pointer-events-none opacity-60 z-0 animate-[fadeIn_0.6s_ease-out_0.8s_both]"
         loading="lazy"
       />
 

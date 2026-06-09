@@ -7,12 +7,14 @@ import { TitleSlide } from "@/components/slides/TitleSlide";
 import { ProblemSlide } from "@/components/slides/ProblemSlide";
 import { CustomersSlide } from "@/components/slides/CustomersSlide";
 import { SolutionSlide } from "@/components/slides/SolutionSlide";
-import { WorkflowSlide } from "@/components/slides/WorkflowSlide";
-import { AISlide } from "@/components/slides/AISlide";
-import { CompetitiveSlide } from "@/components/slides/CompetitiveSlide";
-import { MarketSlide } from "@/components/slides/MarketSlide";
-import { BusinessSlide } from "@/components/slides/BusinessSlide";
-import { TeamSlide } from "@/components/slides/TeamSlide";
+import { ArchitectureSlide } from "@/components/slides/ArchitectureSlide";
+import { KeyFeaturesSlide } from "@/components/slides/KeyFeaturesSlide";
+import { DiagramSlide } from "@/components/slides/DiagramSlide";
+import { TechStackSlide } from "@/components/slides/TechStackSlide";
+import { MobileUISlide } from "@/components/slides/MobileUISlide";
+import { WebUISlide } from "@/components/slides/WebUISlide";
+import { ConclusionSlide } from "@/components/slides/ConclusionSlide";
+import { FutureWorkSlide } from "@/components/slides/FutureWorkSlide";
 import { QnASlide } from "@/components/slides/QnASlide";
 
 const slideComponents: Record<Slide['type'], React.ComponentType<{ slide: Slide }>> = {
@@ -20,12 +22,14 @@ const slideComponents: Record<Slide['type'], React.ComponentType<{ slide: Slide 
   problem: ProblemSlide,
   customers: CustomersSlide,
   solution: SolutionSlide,
-  workflow: WorkflowSlide,
-  ai: AISlide,
-  competitive: CompetitiveSlide,
-  market: MarketSlide,
-  business: BusinessSlide,
-  team: TeamSlide,
+  architecture: ArchitectureSlide,
+  keyfeatures: KeyFeaturesSlide,
+  diagram: DiagramSlide,
+  techstack: TechStackSlide,
+  mobileui: MobileUISlide,
+  webui: WebUISlide,
+  conclusion: ConclusionSlide,
+  futurework: FutureWorkSlide,
   qna: QnASlide,
 };
 

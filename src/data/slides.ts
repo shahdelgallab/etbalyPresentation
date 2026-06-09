@@ -2,8 +2,9 @@ export interface Slide {
   id: number;
   title: string;
   subtitle?: string;
-  type: 'title' | 'problem' | 'customers' | 'solution' | 'workflow' | 'ai' | 'competitive' | 'market' | 'business' | 'team' | 'qna';
+  type: 'title' | 'problem' | 'customers' | 'solution' | 'architecture' | 'keyfeatures' | 'diagram' | 'techstack' | 'mobileui' | 'webui' | 'conclusion' | 'futurework' | 'qna';
   text?: string;
+  diagramImage?: string;
   icon?: string;
   bullets?: string[];
   visual?: string;
@@ -36,7 +37,7 @@ export const slides: Slide[] = [
   },
   {
     id: 2,
-    title: "Problem Statement",
+    title: "Problem Definition",
     type: "problem",
     problemStatement: {
       whatProblem: "Finding a specific replacement part (like a broken plastic clip) is almost impossible in the market. If you want a custom 3D product, you have to learn difficult 3D software and deal with slow, complicated printing workshops.",
@@ -51,42 +52,60 @@ export const slides: Slide[] = [
   },
   {
     id: 4,
-    title: "Proposed Solution",
+    title: "Project Objectives",
     subtitle: "Value Proposition",
     type: "solution",
   },
   {
     id: 5,
-    title: "How the System Works",
-    type: "workflow",
+    title: "System Architecture",
+    subtitle: "High-Level Architectural Overview",
+    type: "architecture",
   },
   {
     id: 6,
-    title: "Role of AI",
-    type: "ai",
+    title: "Key Features Explanation",
+    type: "keyfeatures",
   },
   {
     id: 7,
-    title: "Competitive Advantage",
-    type: "competitive",
+    title: "Database Model",
+    type: "diagram",
+    diagramImage: "/diagrams/data_model_diagram.png",
   },
   {
     id: 8,
-    title: "Market Opportunity",
-    type: "market",
+    title: "Use Case Diagram",
+    type: "diagram",
+    diagramImage: "/diagrams/use_case_diagram.png",
   },
   {
     id: 9,
-    title: "Business Model",
-    type: "business",
+    title: "Tools & Technologies",
+    type: "techstack",
   },
   {
     id: 10,
-    title: "Team & Skills",
-    type: "team",
+    title: "Mobile Implementation",
+    type: "mobileui",
   },
   {
     id: 11,
+    title: "Web Implementation",
+    type: "webui",
+  },
+  {
+    id: 12,
+    title: "Conclusion",
+    type: "conclusion",
+  },
+  {
+    id: 13,
+    title: "Future Work",
+    type: "futurework",
+  },
+  {
+    id: 14,
     title: "Thank You",
     subtitle: "Questions & Discussion",
     type: "qna",

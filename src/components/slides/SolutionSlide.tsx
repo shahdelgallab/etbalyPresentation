@@ -27,10 +27,10 @@ export const SolutionSlide = memo(({ slide }: SolutionSlideProps) => {
     <div className="fixed inset-0 font-display overflow-hidden">
 
       {/* Decorative */}
-      <img src="/figs/Pasted image (5).png" alt="" loading="lazy"
-        className="absolute top-16 left-16 w-16 md:w-20 object-contain pointer-events-none opacity-50 z-0 animate-[fadeIn_0.6s_ease-out_0.8s_both]" />
-      <img src="/figs/Pasted image (13).png" alt="" loading="lazy"
-        className="absolute bottom-24 right-24 w-36 md:w-52 object-contain pointer-events-none opacity-50 z-0 animate-[fadeIn_0.6s_ease-out_1s_both]" />
+      <img src="/figs/Pasted image (4).png" alt="" loading="lazy"
+        className="absolute top-8 right-12 w-24 md:w-36 object-contain pointer-events-none opacity-50 z-0 animate-[fadeIn_0.6s_ease-out_0.8s_both]" />
+      <img src="/figs/Pasted image (9).png" alt="" loading="lazy"
+        className="absolute bottom-10 left-10 w-28 md:w-40 object-contain pointer-events-none opacity-40 z-0 animate-[fadeIn_0.6s_ease-out_1s_both]" />
 
       <div className="absolute inset-0 flex flex-col items-center justify-center px-10 md:px-16">
         <div className="w-full max-w-4xl flex flex-col gap-6">

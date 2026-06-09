@@ -47,7 +47,7 @@ export const ProblemSlide = memo(({ slide }: ProblemSlideProps) => {
       <img src="/figs/Pasted image (2).png" alt="" loading="lazy"
         className="absolute bottom-20 right-16 w-32 md:w-48 object-contain pointer-events-none opacity-80 z-0 animate-[fadeIn_0.6s_ease-out_0.7s_both]" />
 
-      {/* Decorative — bottom-left spools */}
+      {/* Decorative — top-left spools */}
       <img src="/figs/Pasted image (5).png" alt="" loading="lazy"
         className="absolute top-16 left-16 w-20 md:w-28 object-contain pointer-events-none opacity-80 z-0 animate-[fadeIn_0.6s_ease-out_0.8s_both]" />
 
